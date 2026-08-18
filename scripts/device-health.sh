@@ -1,4 +1,14 @@
--------------------------------------"
+#!/bin/bash
+
+online=0
+offline=0
+skipped=0
+checked=0
+
+echo "=== Retail IT DEVICE HEALTH CHECK ===="
+echo
+printf "%-12s %-18s %10s\n" "HOSTNAME" "IP ADDRESS" "STATUS"
+echo "------------------------------------------"
 
 while IFS=, read -r asset type host location ip status
 do
@@ -28,4 +38,5 @@ echo "Devices Checked: $checked"
 echo "Online:          $online"
 echo "Offline:         $offline"
 echo "Skipped:         $skipped"
+
 
