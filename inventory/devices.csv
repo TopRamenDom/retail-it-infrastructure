@@ -1,0 +1,7 @@
+AssetID,DeviceType,Hostname,Location,IPAddress,Status
+001,POS Computer,POS-01,Front Counter,192.168.50.21,Active
+002,POS Computer,POS-02,Front Counter,192.168.56.102,Active
+003,Network Printer,PRN-01,Back Office,192.168.50.30,Active
+004,Store Tablet,TAB-01,Sales Floor,DHCP,Active
+005,Wireless Access Point,AP-01,Ceiling,192.168.50.2,Active
+006,Linux Server,KALI-SRV,IT Closet,192.168.56.101,Active
